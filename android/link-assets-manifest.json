@@ -1,0 +1,29 @@
+{
+  "migIndex": 1,
+  "data": [
+    {
+      "path": "src/assets/fonts/AvenirLTStd55Roman.otf",
+      "sha1": "a614776d8ee6be9ed01ccc136ac5daed16ba604b"
+    },
+    {
+      "path": "src/assets/fonts/AvenirLTStd65Medium.otf",
+      "sha1": "4bb358bdce457d097bb6c36b10c0532f850ce942"
+    },
+    {
+      "path": "src/assets/fonts/AvenirLTStd85Heavy.otf",
+      "sha1": "bf135f69c60771d3e70ac6fe0d608994ec43b1a2"
+    },
+    {
+      "path": "src/assets/fonts/MontserratBold.ttf",
+      "sha1": "98c66622226025f539568865af96df5175e2979c"
+    },
+    {
+      "path": "src/assets/fonts/MontserratMedium.ttf",
+      "sha1": "25c429296b9d6eb242cba92d1ee7fae484b019cb"
+    },
+    {
+      "path": "src/assets/fonts/MontserratSemiBold.ttf",
+      "sha1": "0754a3a23d8d68b0f0558df3109e0df86e968f24"
+    }
+  ]
+}

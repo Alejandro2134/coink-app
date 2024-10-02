@@ -14,6 +14,12 @@
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
 		7699B88040F8A987B510C191 /* libPods-CoinkApp-CoinkAppTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 19F6CBCC0A4E27FBF8BF4A61 /* libPods-CoinkApp-CoinkAppTests.a */; };
 		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
+		23B51385E7224515BCB4A932 /* AvenirLTStd55Roman.otf in Resources */ = {isa = PBXBuildFile; fileRef = 5BB0E37982FE472C9E238788 /* AvenirLTStd55Roman.otf */; };
+		272AD2CA486A4A0086FF7388 /* AvenirLTStd65Medium.otf in Resources */ = {isa = PBXBuildFile; fileRef = 76C9A96E28564347A94A5F9F /* AvenirLTStd65Medium.otf */; };
+		725D4C2A2C844FF4B7B1D006 /* AvenirLTStd85Heavy.otf in Resources */ = {isa = PBXBuildFile; fileRef = EC7D1FAF6EC445CEA6E26D81 /* AvenirLTStd85Heavy.otf */; };
+		B8872A923ED7489483563BB4 /* MontserratBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 744F0792FFB4498F97CCCBA7 /* MontserratBold.ttf */; };
+		B4E496254EAB4FB9A2D18265 /* MontserratMedium.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 92B43EDBE4F3463D8F73BA10 /* MontserratMedium.ttf */; };
+		FB72F7B7A5BF4901BC5EBACF /* MontserratSemiBold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 584DB3B4FB52474A9316E50B /* MontserratSemiBold.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +51,12 @@
 		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = CoinkApp/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		89C6BE57DB24E9ADA2F236DE /* Pods-CoinkApp-CoinkAppTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CoinkApp-CoinkAppTests.release.xcconfig"; path = "Target Support Files/Pods-CoinkApp-CoinkAppTests/Pods-CoinkApp-CoinkAppTests.release.xcconfig"; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
+		5BB0E37982FE472C9E238788 /* AvenirLTStd55Roman.otf */ = {isa = PBXFileReference; name = "AvenirLTStd55Roman.otf"; path = "../src/assets/fonts/AvenirLTStd55Roman.otf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		76C9A96E28564347A94A5F9F /* AvenirLTStd65Medium.otf */ = {isa = PBXFileReference; name = "AvenirLTStd65Medium.otf"; path = "../src/assets/fonts/AvenirLTStd65Medium.otf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		EC7D1FAF6EC445CEA6E26D81 /* AvenirLTStd85Heavy.otf */ = {isa = PBXFileReference; name = "AvenirLTStd85Heavy.otf"; path = "../src/assets/fonts/AvenirLTStd85Heavy.otf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		744F0792FFB4498F97CCCBA7 /* MontserratBold.ttf */ = {isa = PBXFileReference; name = "MontserratBold.ttf"; path = "../src/assets/fonts/MontserratBold.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		92B43EDBE4F3463D8F73BA10 /* MontserratMedium.ttf */ = {isa = PBXFileReference; name = "MontserratMedium.ttf"; path = "../src/assets/fonts/MontserratMedium.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
+		584DB3B4FB52474A9316E50B /* MontserratSemiBold.ttf */ = {isa = PBXFileReference; name = "MontserratSemiBold.ttf"; path = "../src/assets/fonts/MontserratSemiBold.ttf"; sourceTree = "<group>"; fileEncoding = undefined; lastKnownFileType = unknown; explicitFileType = undefined; includeInIndex = 0; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -124,6 +136,7 @@
 				83CBBA001A601CBA00E9B192 /* Products */,
 				2D16E6871FA4F8E400B85C8A /* Frameworks */,
 				BBD78D7AC51CEA395F1C20DB /* Pods */,
+				8B8EC69E769243C7BF518C62 /* Resources */,
 			);
 			indentWidth = 2;
 			sourceTree = "<group>";
@@ -149,6 +162,20 @@
 			);
 			path = Pods;
 			sourceTree = "<group>";
+		};
+		8B8EC69E769243C7BF518C62 /* Resources */ = {
+			isa = "PBXGroup";
+			children = (
+				5BB0E37982FE472C9E238788 /* AvenirLTStd55Roman.otf */,
+				76C9A96E28564347A94A5F9F /* AvenirLTStd65Medium.otf */,
+				EC7D1FAF6EC445CEA6E26D81 /* AvenirLTStd85Heavy.otf */,
+				744F0792FFB4498F97CCCBA7 /* MontserratBold.ttf */,
+				92B43EDBE4F3463D8F73BA10 /* MontserratMedium.ttf */,
+				584DB3B4FB52474A9316E50B /* MontserratSemiBold.ttf */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+			path = "";
 		};
 /* End PBXGroup section */
 
@@ -245,6 +272,12 @@
 			files = (
 				81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */,
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
+				23B51385E7224515BCB4A932 /* AvenirLTStd55Roman.otf in Resources */,
+				272AD2CA486A4A0086FF7388 /* AvenirLTStd65Medium.otf in Resources */,
+				725D4C2A2C844FF4B7B1D006 /* AvenirLTStd85Heavy.otf in Resources */,
+				B8872A923ED7489483563BB4 /* MontserratBold.ttf in Resources */,
+				B4E496254EAB4FB9A2D18265 /* MontserratMedium.ttf in Resources */,
+				FB72F7B7A5BF4901BC5EBACF /* MontserratSemiBold.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
