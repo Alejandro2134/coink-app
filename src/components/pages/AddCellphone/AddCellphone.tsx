@@ -4,6 +4,7 @@ import Oink from '../../../assets/img/oink.svg';
 import PhoneInput from '../../organisms/PhoneInput/PhoneInput';
 import {NativeStackScreenProps} from '@react-navigation/native-stack';
 import {RootStackParamList} from '../../../constants/types';
+import Line from '../../atoms/Line/Line';
 
 type Props = NativeStackScreenProps<RootStackParamList, 'AddCellphone'>;
 
@@ -21,7 +22,9 @@ const AddCellphone = ({navigation}: Props) => {
           </View>
         </View>
 
-        <View style={styles.line} />
+        <View style={styles.lineContainer}>
+          <Line />
+        </View>
       </View>
 
       <View style={styles.phoneInputContainer}>
@@ -56,10 +59,8 @@ const styles = StyleSheet.create({
     color: '#757575',
     fontSize: 16,
   },
-  line: {
+  lineContainer: {
     marginTop: 24,
-    borderBottomColor: '#1EEA00',
-    borderBottomWidth: StyleSheet.hairlineWidth,
   },
   phoneInputContainer: {
     flex: 6,
